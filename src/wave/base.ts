@@ -4,6 +4,7 @@ import {
     map, forEach, multiMap, concat, filter
 } from './Operators'
 
+
 export default class Wave<T, S = any>{
 
     ob: Observer<T>
@@ -36,5 +37,3 @@ export default class Wave<T, S = any>{
     concat = concat<T, S>()
     filter = filter<T, S>()
 }
-
-export { Observer }

@@ -1,4 +1,4 @@
-import Observer from './Observer'
+import Observer from './observer'
 import Wave from './base'
 
 

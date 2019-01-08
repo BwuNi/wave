@@ -2,8 +2,8 @@ import { Observer } from "..";
 import Wave from "../base";
 
 
-export default function operatorsCreatorMap<T, S>() {
-    return function concat<R>(target: Wave<R> | Observer<R>) {
+export default function concat<T, S>() {
+    return function <R>(target: Wave<R> | Observer<R>) {
 
         const res = new Observer<R | T>()
 
