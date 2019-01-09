@@ -17,6 +17,6 @@ Wave.new(Observer.new<Event>(document.getElementById("app"), 'mousedown'))
             push(true)
         }
     })
-    .forEach(e => { alert('deep press') })
+    .map(e => { alert('deep press') })
 
 
